@@ -34,6 +34,7 @@ chown -R nexus:nexus *
 su - nexus
 echo run_as_user="nexus" > /opt/nexus3/nexus-running/bin/nexus.rc
 sudo ln -s /opt/nexus3/nexus-running/bin/nexus /etc/init.d/nexus
+/etc/init.d/nexus start
 ```
 
 ## Links
