@@ -35,3 +35,9 @@ su - nexus
 echo run_as_user="nexus" > /opt/nexus3/nexus-running/bin/nexus.rc
 sudo ln -s /opt/nexus3/nexus-running/bin/nexus /etc/init.d/nexus
 ```
+
+## Links
+- https://stackoverflow.com/questions/57028412/how-to-install-nexus-on-ubuntu-18-04
+- https://help.sonatype.com/repomanager3/product-information/download
+- https://help.sonatype.com/repomanager3/product-information/system-requirements#SystemRequirements-Java
+
